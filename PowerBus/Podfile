@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PowerBus' do
+    
+  use_frameworks!
+  
+  #菊花
+  pod 'SVProgressHUD'
+  #刷新
+  pod 'MJRefresh'
+  #全局右滑返回
+  pod 'FDFullscreenPopGesture'
+  #高德定位
+  pod 'AMapLocation-NO-IDFA',:inhibit_warnings => true
+  #高德地图
+  pod 'AMap2DMap-NO-IDFA',:inhibit_warnings => true
+
+end
